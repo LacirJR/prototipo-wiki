@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Ruda:wght@400;600;900&display=swap');
+
+.containerPosts{
+    display: flex;
+    justify-content: center;
+    margin-top: 2.5em;
+}
+
+.containerBody{
+    width: 80%;
+    padding: 3%;
+    border-radius: 15px;
+    background-color: aliceblue;
+}
+.tituloPagina{
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    align-items: baseline;
+    justify-content: space-between;
+    color: black;
+}
+
+.novoPostButton{
+    font-family: 'Ruda', sans-serif;
+    background-color: #1E2C46;
+    color: white;
+    border: none;
+    padding: .5rem 1.2rem .5rem 1.2rem;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.novoPostButton:hover{
+    background-color: #2a3d61;
+}
