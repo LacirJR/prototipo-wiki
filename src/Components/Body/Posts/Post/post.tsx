@@ -18,7 +18,9 @@ export const PostHomePage = ({titulo, description, tag, usuario}: PropPost) => {
         <div className='ConteudoPost'>
             <h3 className="titulo">{titulo}</h3>
             <div className='rowDescriptionAndButton'>
+                <div className='limitadorDescription'>
             <p className="description">{description}</p>
+            </div>
             <button className='CliqueAquiButton'>VER POST</button>
             </div>
             <div className='footerPost'>

@@ -34,12 +34,13 @@
 }
 
 .tag, .usuario{
-    background-color: rgb(30, 44, 70);
-    color: white;
-    border: none;
+    border-color: rgb(30, 44, 70);
+    color: rgb(30, 44, 70);
+    border: 1px solid;
     font-weight: 600;
     border-radius: 30%;
     font-size: 0.9em;
+    background-color: transparent;
     padding: 0.5rem 0.5rem 0.5rem 0.5rem;
 }
 
@@ -52,6 +53,14 @@
     width: 100%;
     align-items: baseline;
     justify-content: space-between;
+}
+
+.description{
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    display: block;
+    overflow: hidden;
+    width: 50em;
 }
 
 .CliqueAquiButton{
@@ -71,3 +80,47 @@
 }
 
 
+@media screen and (max-width: 500px){
+.respostas{
+    display: none;
+}
+
+.rowDescriptionAndButton{
+    flex-direction: column;
+}
+
+
+
+}
+
+@media screen and (max-width: 1200px){
+
+    .description{
+        width: 30em;
+    
+    }
+}
+
+@media screen and (max-width: 943px){
+
+    .description{
+        width: 20em;
+    
+    }
+}
+
+@media screen and (max-width: 738px){
+
+    .description{
+        width: 10em;
+    
+    }
+}
+
+@media screen and (max-width: 372px){
+
+    .description{
+        width: 5em;
+    
+    }
+}
