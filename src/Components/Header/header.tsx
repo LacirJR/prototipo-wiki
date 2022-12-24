@@ -46,7 +46,6 @@ export const Header = () => {
     return (
         <header className="header">
             <Logo/>
-            <Pesquisar/>
             <MenuToggler/>
         </header>
     )

@@ -1,0 +1,73 @@
+.postSingle{
+    display: flex;
+    flex-direction: row;
+ 
+}
+.ConteudoPost{
+    width: 100%;
+}
+.ColunaIcone{
+    margin-right: 3rem;
+    display: flex;
+    align-items: center;
+}
+.IconPost{
+    background: rgb(255,255,255);
+    background: linear-gradient(61deg, rgba(255,255,255,1) 0%, rgba(30,40,70,0.9816971466320903) 100%);
+    color: white;
+    border: none;
+    font-size: 2rem;
+    width: 100px;
+    height: 100px;
+    border-radius:75% 25% 81% 19% / 36% 73% 27% 64% ;
+    -webkit-box-shadow: 10px 11px 24px -10px rgba(0,0,0,0.67);
+    -moz-box-shadow: 10px 11px 24px -10px rgba(0,0,0,0.67);
+    box-shadow: 10px 11px 24px -10px rgba(0,0,0,0.67);
+}
+
+
+.footerPost{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+}
+
+.tag, .usuario{
+    background-color: rgb(30, 44, 70);
+    color: white;
+    border: none;
+    font-weight: 600;
+    border-radius: 30%;
+    font-size: 0.9em;
+    padding: 0.5rem 0.5rem 0.5rem 0.5rem;
+}
+
+
+.usuario{
+    border-radius: 10%;
+}
+.rowDescriptionAndButton{
+    display: flex;
+    width: 100%;
+    align-items: baseline;
+    justify-content: space-between;
+}
+
+.CliqueAquiButton{
+    margin-left: 3%;
+    background-color: #1E2C46;
+    color: white;
+    border: none;
+    border-radius: 5px;    
+    font-size: 0.85em;
+    cursor: pointer;
+
+    padding: .5rem 1.2rem .5rem 1.2rem;
+}
+
+.CliqueAquiButton:hover{
+    background-color: #2a3d61;
+}
+
+

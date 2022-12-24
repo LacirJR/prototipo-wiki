@@ -1,6 +1,6 @@
 import { useState } from 'react'
-import { BodyPost } from './Body/body'
-import { Header } from './Header/header'
+import { BodyPost } from './Components/Body/body'
+import { Header } from './Components/Header/header'
 
 
 function App() {

@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Ruda:wght@400;600;900&display=swap');
+
+.containerPosts{
+    display: flex;
+    justify-content: center;
+    margin-top: 2.5em;
+}
+
+.containerBody{
+    width: 80%;
+    padding: 3%;
+    border-radius: 15px;
+    background-color: aliceblue;
+}
+.tituloPagina{
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    align-items: baseline;
+    justify-content: space-between;
+    color: black;
+}
+
+.novoPostButton{
+    font-family: 'Ruda', sans-serif;
+    background-color: #1E2C46;
+    color: white;
+    border: none;
+    padding: .5rem 1.2rem .5rem 1.2rem;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-left: 1rem;
+
+}
+
+
+.novoPostButton:hover{
+    background-color: #2a3d61;
+}
+
+.botoesTopoContainer{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-between;
+    
+}
+
+#searchPost{
+    margin-right: 0%;
+    width: 9rem;
+    border: none;
+    background-color: rgba(217, 217, 217, 0);
+}
+.searchBox{
+    display: flex;
+    height: 5vh;
+    background-color: rgba(217, 217, 217, 0.54);
+    border-radius: 10px;
+    -webkit-box-shadow: 0px 13px 24px -7px rgba(0,0,0,0.51);
+    -moz-box-shadow: 0px 13px 24px -7px rgba(0,0,0,0.51);
+    box-shadow: 0px 13px 24px -7px rgba(0,0,0,0.51);
+}
+#searchPost:focus{
+    outline: none;
+
+}
+
+.imgSearch{
+    padding-left: 2%;
+    padding-right: 2%;
+    width: 1em;
+}
+
+@media screen and (max-width: 500px){
+    .botoesTopoContainer{
+        display: block;
+    }
+
+    .novoPostButton{
+        margin-top: 0.5rem;
+    }
+}
+
+@media screen and (max-width: 350px){
+ .tituloPagina{
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+ }
+ .tituloPagina h1{
+    margin: 2px auto;
+ }
+}
